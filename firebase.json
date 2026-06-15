@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "/api/saju",
+        "run": {
+          "serviceId": "bomiom-saju-server",
+          "region": "asia-northeast3"
+        }
+      },
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "bomiom",
+          "region": "asia-northeast3"
+        }
+      }
+    ]
+  }
+}

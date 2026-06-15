@@ -1,22 +1,45 @@
 {
-  "name": "봄이옴-(bomiom)",
+  "name": "bomiom-v2",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "NODE_OPTIONS=--max-old-space-size=4096 vite build",
+    "start": "node server.cjs"
   },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "lucide-react": "^0.563.0"
+    "@react-three/drei": "^9.99.0",
+    "@react-three/fiber": "^8.15.16",
+    "axios": "^1.13.5",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.5.2",
+    "firebase": "^12.9.0",
+    "firebase-admin": "^13.10.0",
+    "form-data": "^4.0.5",
+    "framer-motion": "^11.18.2",
+    "korean-lunar-calendar": "^0.3.6",
+    "lucide-react": "^0.344.0",
+    "lunar-javascript": "^1.7.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-kakao-maps-sdk": "^1.2.1",
+    "tailwind-merge": "^3.4.0",
+    "three": "^0.160.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
   }
 }

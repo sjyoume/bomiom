@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bomiom.co.kr/sitemap.xml

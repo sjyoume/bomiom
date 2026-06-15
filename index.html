@@ -2,47 +2,46 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>봄이옴 - 우리 집에 봄이 왔어요</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    
+    <title>봄이옴 - 똑똑한 임산부들의 필수 선택</title>
+    <meta name="description" content="임산부 혜택, 더 이상 찾지 마세요. 정부·지자체 혜택을 한눈에! 동네만 입력하면 나오는 맞춤 혜택부터 동네 예비맘들의 리얼한 선택까지!">
+    <meta name="keywords" content="임산부 혜택, 임신 혜택, 출산 지원금, 산후도우미, 태아보험, 보건소 혜택, 태명 짓기, 봄이옴">
+    
+    <meta name="naver-site-verification" content="52e6442d3c7fec35351479f2120519688e16b754" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="봄이옴 - 똑똑한 임산부들의 필수 선택">
+    <meta property="og:description" content="임산부 혜택, 더 이상 찾지 마세요. 정부·지자체 혜택을 한눈에! 동네만 입력하면 나오는 맞춤 혜택부터 동네 예비맘들의 리얼한 선택까지!">
+    <meta property="og:image" content="https://bomiom.co.kr/og-image.png">
+    <meta property="og:url" content="https://bomiom.co.kr">
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-      body {
-        font-family: 'Pretendard', sans-serif;
-        background-color: #f3f4f6; /* gray-100 */
+
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js"></script>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5918542219077560" crossorigin="anonymous"></script>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+        "react/": "https://esm.sh/react@18.2.0/",
+        "lucide-react": "https://esm.sh/lucide-react@0.344.0",
+        "three": "https://esm.sh/three@0.150.1",
+        "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.13.0?external=react,react-dom,three",
+        "@react-three/drei": "https://esm.sh/@react-three/drei@9.70.0?external=react,react-dom,three,@react-three/fiber",
+        "maath": "https://esm.sh/maath@0.10.7?external=three,react"
       }
-      /* Hide scrollbar for chrome/safari/opera */
-      .no-scrollbar::-webkit-scrollbar {
-        display: none;
-      }
-      /* Hide scrollbar for IE, Edge and Firefox */
-      .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-      }
-      /* Custom animations */
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-      }
-      .animate-float {
-        animation: float 3s ease-in-out infinite;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
+    }
+    </script>
+  </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

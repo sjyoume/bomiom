@@ -1,0 +1,11 @@
+{
+  "policy": {
+    "spec": {
+      "rules": [
+        {
+          "allowAll": true
+        }
+      ]
+    }
+  }
+}

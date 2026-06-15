@@ -1,0 +1,4 @@
+name: projects/gen-lang-client-0047328822/policies/iam.allowedPolicyMemberDomains
+spec:
+  rules:
+  - allowAll: true
