@@ -11260,7 +11260,7 @@ const App: React.FC = () => {
             </button>
           </div>
         </div>
-      )}
+      )} 
 
       {view === 'CARE_RESERVATION' && user && (
         <CareReservationPage 
